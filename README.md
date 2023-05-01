@@ -44,6 +44,6 @@ After Completion of task you can stop loading. In following example i have disab
         }
     }
 ```
-
-
+Output  :
+<img src=https://github.com/dheeraj-bhadoria/ProgressButton-Compose-Loading-Button-Library/blob/main/progressbutton.gif >
 
