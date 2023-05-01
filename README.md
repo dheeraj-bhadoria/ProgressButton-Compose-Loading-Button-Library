@@ -18,3 +18,18 @@ Add this in your build.gradle
 ```groovy
 implementation 'com.github.dheeraj-bhadoria:ProgressButton-Compose-Loading-Button-Library:0.0.1'
 ```
+
+How to use this  :
+```kotlin
+ ProgressButton(
+            text = "Submit",
+            backgroundColor = Color.Blue,
+            foregroundColor = Color.White,
+            buttonHeight = 50.dp,
+            buttonWidth = 200.dp,
+            onButtonClicked = {
+                isLoading = true;
+            },
+            isLoading = isLoading
+        )
+```
