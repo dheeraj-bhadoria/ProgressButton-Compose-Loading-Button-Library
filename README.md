@@ -33,3 +33,17 @@ How to use this  :
             isLoading = isLoading
         )
 ```
+After Completion of task you can stop loading. In following example i have disable loading after 2 seconds :
+```kotlin
+    LaunchedEffect(isLoading) {
+        if (isLoading) {
+            delay(2000) // delay for 2 seconds
+            // execute your statement here
+            // for example, show a Toast message
+            isLoading = false;
+        }
+    }
+```
+
+
+
