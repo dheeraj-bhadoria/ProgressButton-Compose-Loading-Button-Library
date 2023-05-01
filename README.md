@@ -14,6 +14,17 @@ Hi, I am [**Dheeraj Singh Bhadoria**](https://dheeruapps.in), Mobile Applicaiton
 
 ## Using Progress Button in your application
 
+Add it in your root build.gradle at the end of repositories:
+
+```groovy
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
 Add this in your build.gradle
 ```groovy
 implementation 'com.github.dheeraj-bhadoria:ProgressButton-Compose-Loading-Button-Library:0.0.1'
