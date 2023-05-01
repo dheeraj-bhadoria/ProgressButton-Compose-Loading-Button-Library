@@ -11,3 +11,10 @@ This button itself show the progress dialog inside the button. You can use it in
 ## About me
 
 Hi, I am [**Dheeraj Singh Bhadoria**](https://dheeruapps.in), Mobile Applicaiton Developer. I am passionate about sharing knowledge through open-source, blogs, and videos.
+
+## Using Progress Button in your application
+
+Add this in your build.gradle
+```groovy
+implementation 'com.github.dheeraj-bhadoria:ProgressButton-Compose-Loading-Button-Library:0.0.1'
+```
